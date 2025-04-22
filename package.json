@@ -1,0 +1,30 @@
+{
+  "name": "web3-phaser-template",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .ts",
+    "lint:fix": "eslint . --ext .ts --fix",
+    "format": "prettier --write \"src/**/*.{ts,tsx,css,html}\""
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.27.0",
+    "@typescript-eslint/parser": "^8.27.0",
+    "@wagmi/connectors": "^5.7.12",
+    "@wagmi/core": "^2.16.7",
+    "eslint": "^9.23.0",
+    "eslint-config-prettier": "^10.1.1",
+    "eslint-plugin-prettier": "^5.2.3",
+    "phaser": "^3.88.2",
+    "prettier": "^3.5.3",
+    "viem": "2.x"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5",
+    "vite": "^4.5.2"
+  }
+}
